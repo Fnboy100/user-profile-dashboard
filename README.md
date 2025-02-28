@@ -8,7 +8,7 @@ This project features a user profile page with a sidebar menu, trending topics, 
 ## 📌 Features
 
 - ✅ **Responsive User Profile Page**
-- ✅ **Sidebar Navigation** for Feeds, Housing, Jobs, and more
+- ✅ **Sidebar Navigation** for Feeds, Housing, Shopping Deals, Gigs, Car Geeks
 - ✅ **Trending Requests** section for popular items
 - ✅ **User Posts** with timestamps and post status
 - ✅ **Interactive buttons** for Editing Profile and Submitting Requests
