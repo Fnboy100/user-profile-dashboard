@@ -1,0 +1,76 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    width: 1728px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Search Bar */
+.search-bar input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    min-width: 1200px;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.request-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo img {
+    height: 40px;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 15px;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* User Avatar */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

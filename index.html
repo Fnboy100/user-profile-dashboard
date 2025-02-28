@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/your-fontawesome-kit.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+
+    <link rel="stylesheet" href="assets/css/header-nav.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
+    <link rel="stylesheet" href="assets/css/sidebar.css" />
+    <link rel="stylesheet" href="assets/css/posts.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <h2>🏠 HOMEBRO</h2>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="actions logo">
+          <button class="request-btn">Submit a request <i class="fas fa-pencil-alt"></i></button>
+          <i class="fas fa-comment"></i>
+          <i class="fas fa-bell"></i>
+          <img src="assets/images/user-avatar.png" alt="User" />
+        </div>
+      </header>
+
+      <div class="main-content">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="menu">
+            <button class="menu-item">
+              <i class="fas fa-newspaper"></i> Feeds
+            </button>
+            <button class="menu-item">
+              <i class="fas fa-home"></i> Housing
+            </button>
+            <button class="menu-item">
+              <i class="fas fa-recycle"></i> Declutter
+            </button>
+            <button class="menu-item">
+              <i class="fas fa-briefcase"></i> Jobs
+            </button>
+          </div>
+          <div class="trending">
+            <h4><i class="fas fa-chart-line"></i> Trending Requests</h4>
+            <p>#Refrigerator</p>
+            <p>#Powerbank</p>
+            <p>#3Bedroom</p>
+            <p>#Blender</p>
+            <p>#Drawer</p>
+          </div>
+        </aside>
+
+        <div class="profile-section">
+          <button class="edit-profile-btn">Edit Profile ✎</button>
+          <div class="profile-card">
+            <div class="profile-header">
+              <img
+                src="assets/images/user-avatar.png"
+                alt="Profile Picture"
+                class="profile-pic"
+              />
+              <div class="profile-info">
+                <h2>Uzochukwu Maryann</h2>
+                <p>@BondwithMaya</p>
+                <p>📍 Abuja | 👩‍⚕️ Medical Scientist | 💻 Web Developer</p>
+              </div>
+            </div>
+            <p class="profile-bio">
+              I am a medical photographer with a passion for portrait
+              photography (with 2 years of experience). I help clients
+              acknowledge their beauty through a photograph. When I’m not
+              working, you’ll find me dancing, driving by the streets, and
+              believing in myself.
+            </p>
+          </div>
+
+          <!-- Posts Section -->
+          <div class="posts-section">
+            <h3>📢 Posts</h3>
+            <div class="post">
+              <img
+                src="assets/images/post-thumbnail.png"
+                alt="Post Thumbnail"
+              />
+              <div class="post-info">
+                <h4>🚀 Goatrixie</h4>
+                <p><strong>The Last Courier</strong></p>
+                <p>
+                  In the aftermath of a catastrophic solar flare that wiped out
+                  tech infrastructure, humanity is forced to revisit physical
+                  communication. The Last Courier tells the story of one of the
+                  last message deliverers, risking everything to keep families
+                  connected.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/header-nav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/sidebar.js"></script>
+    <script src="assets/js/posts.js"></script>
+  </body>
+</html>
